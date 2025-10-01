@@ -6,4 +6,7 @@
 
 - Independente de plataforma(pode ser executado em diferentes sistemas operacionais e arquiteturas)
 
-- JVM (Java Virtual Machine) : é o ambiente de execução que vai interpretar o byte code do  Java
+- JVM (Java Virtual Machine) : é o ambiente de execução que vai interpretar o bytecode do  Java
+    Codigo Java  -> transforma em bytecode -> JVM (Java é compilado e executado) -> Codigo de maquina
+
+- Pré-requisito : jdk(java develop kit) `24` ou 25 , e IDE (intellij community edition, eclipse , vs code)
