@@ -19,6 +19,8 @@
 
 - Todo arquivo java tem que ter uma classe, e o nome da classe tem que ser igual ao nome do arquivo (pode ter mais de uma classe por arquivo, mas tem que ter ao menos 1 com o nome do arquivo e está é a classe principal, a classe que for ser a principal do arquivo tem que ser public)
 
+---
+
 ##### Variáveis:
 
 ###### Declaração:
@@ -40,11 +42,33 @@
 - double => 64 bits => precisão dupla
 
             Texto
-- String => representar palavras e frases
+- String => representar palavras e frases (obs String não é tipo primitivo é uma classe)
 - char => representar um unico caractere
 
                 Verdadeiro ou Falso
 - boolean => true ou false
+
+---
+
+byte b = 100;
+
+short s = 10000;
+
+int i = 100000;
+
+long l = 100000L;
+
+float f = 10.5f;
+
+double d = 20.5;
+
+char c = 'A';
+
+String str = "Caricchio";
+
+booolean bool = true;
+
+---
 
 ###### Comentarios: 
 
@@ -54,3 +78,6 @@ Comentario de mais de uma linha
 
 
 `//` Comentario de uma linha
+
+###### Condicionais:
+
