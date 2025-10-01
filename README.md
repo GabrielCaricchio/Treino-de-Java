@@ -28,7 +28,8 @@
 
         var minhaDivida = 5000;
 
-    obs: o var vai inferir qual é o tipo da variável (porém após ele definir pela primeira vez qual é o tipo da variável, esse tipo não poderá ser alterado)
+    obs: o var vai inferir qual é o tipo da variável
+    (porém após ele definir pela primeira vez qual é o tipo da variável, esse tipo não poderá ser alterado)
 
 ###### Tipos primitivos:
     Números Inteiros:
