@@ -216,4 +216,4 @@ nomes.remove(index:0):
 > nomes.remove(index: 0);
 nomes.remove(o:"Thor");
 
-#### Estruturas de repetição / Loops:
+##### Estruturas de repetição / Loops:
