@@ -79,7 +79,7 @@ booolean bool = true;
 
 ---
 
-###### Comentarios: 
+##### Comentarios: 
 
 `/*`   
 Comentario de mais de uma linha
@@ -89,9 +89,9 @@ Comentario de mais de uma linha
 `//` Comentario de uma linha
 
 
-###### Condicionais:
+##### Condicionais:
 
-`Estrutura:`
+###### Estrutura:
 if(){
 
 } else if (){
@@ -101,6 +101,7 @@ else {
 
 }
 
+###### Exemplos
 
 Maior
 > if(b > 99){ 
@@ -161,3 +162,58 @@ Verificar se a String é vazia
 } else{
     System.out.println("Falso");
 }
+
+##### Vetores
+Vetor ou `array` é uma estrutura de dados utilizada para armazenar uma coleção de valores do mesmo tipo.
+
+>Estrutura:
+int`[]` colecaoDeInteiros = {1,2,3,4,5}; 
+
+obs as posições dentroooo de um array começam a partir da posição(indice) 0
+
+`Para printar uma posição especifica do array:`
+System.out.println(volecaoDeInteiros[0]);
+
+- `Obs:` Se você inicilizar um array ele vai estar limitado a quantidade de posições que você definiu.
+
+Para saber o comprimento de um array:
+System.out.printls(colecaoDeArray.length);
+
+- Pode criar um array com qualquer tipo primitivo
+
+`Se não quiser inicializar os valores:`
+>int meusNumeros = new int [200];
+
+-Obs tem definir o tamanho/comprimento do array quando cria-lo/inicializa-lo.
+
+`Para resolver o problema de não poder aumentar o tamanho dos arrays tem o ArrayList (ArrayList é uma classe)`
+
+> ArrayList<String> nomes = new ArrayList<>();
+
+O ArrayList permite criar uma lista dinamica de elementos, permite remover e adicionar itens de forma dinamica, sem declarar no momento da declaração da variável qual o tamanho que essa ArrayList vai ter .
+
+- Obs tem que importar o ArrayList do java.util:
+> import java.util.ArrayList;
+
+###### Comparação entre Array e ArrayList
+
+Array:
+> String[] nomesArr = new String[10];
+nomesArr[0] = "Gleydson";
+nomesArr[1] = "Maria";
+System.out.println(nomesArr[0]);
+
+ArrayList:
+> ArrayList<String> nomes = new ArrayList<>();
+nomes.add("Gabriel");
+nomes.add("Chefinho");
+nomes.add("Thor");
+System.out.println(nomes.get(0));
+nomes.remove(index:0):
+- Obs  ao remover um item do ArrayList o item posterior a ele irá assumir a posição dele , por exemplo se removesse o index 0 (Gabriel neste caso), o item do index 1 (Chefinho) assumiria sua posição e assim sucessivamente.
+
+- Em um ArrayList é possivel remover tanto por posição , como por objeto também:
+> nomes.remove(index: 0);
+nomes.remove(o:"Thor");
+
+#### Estruturas de repetição / Loops:
