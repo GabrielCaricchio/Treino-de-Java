@@ -2,12 +2,16 @@
 
 > - POO (linguagem orientada a objetos, paradigma orientado a objetos): a liguagem gira em torno de classes e objetos e as interações entre eles.
 
+
 > - `Fortemente tipada: todas as variaveis tem que atribuir o tipo , e ele não pode ser alterado após ser definido`.
+
 
 > - Independente de plataforma(pode ser executado em diferentes sistemas operacionais e arquiteturas).
 
+
 > - JVM (Java Virtual Machine) : é o ambiente de execução que vai interpretar o bytecode do  Java.
     Codigo Java  -> transforma em bytecode -> JVM (Java é compilado e executado) -> Codigo de maquina.
+
 
 > - Pré-requisito : jdk(java develop kit) `24` ou 25 , e IDE (intellij community edition, eclipse , vs code)
 
@@ -31,6 +35,7 @@
     obs: o var vai inferir qual é o tipo da variável
     (porém após ele definir pela primeira vez qual é o tipo da variável, esse tipo não poderá ser alterado)
 
+
 ###### Tipos primitivos:
     Números Inteiros:
 - byte => 8 bits => -128 a 127
@@ -38,13 +43,16 @@
 - `int` => 32 bits => -2.147.483.648 a 2.147.483.647
 - `long` => 64 bits => -9.223.372.036.854.775.808 a 9.223.372.036.854.775.807
 
+
         Números Decimais / Reais:
 - float => 32 bits => precisão simples
 - double => 64 bits => precisão dupla
 
+
             Texto
 - String => representar palavras e frases (obs String não é tipo primitivo é uma classe)
 - char => representar um unico caractere
+
 
                 Verdadeiro ou Falso
 - boolean => true ou false
@@ -80,5 +88,76 @@ Comentario de mais de uma linha
 
 `//` Comentario de uma linha
 
+
 ###### Condicionais:
 
+`Estrutura:`
+if(){
+
+} else if (){
+
+}
+else {
+
+}
+
+
+Maior
+> if(b > 99){ 
+    System.out.println("Verdadeiro");
+} else{
+    System.out.println("Falso");
+}
+
+Maior ou Igual a
+> if(i >= 1000){ 
+    System.out.println("Verdadeiro");
+} else{
+    System.out.println("Falso");
+}
+
+
+Menor
+> if(l < 99){ 
+    System.out.println("Verdadeiro");
+} else{
+    System.out.println("Falso");
+}
+
+Menor ou Igual a
+> if(d <= 30){ 
+    System.out.println("Verdadeiro");
+} else{
+    System.out.println("Falso");
+}
+
+
+Verdadeiro ou Falso
+> if(bool){ 
+    System.out.println("Verdadeiro");
+} else{
+    System.out.println("Falso");
+}
+
+
+Comparar para ver se é igual a:
+> if(str == "Caricchio"){ 
+    System.out.println("Verdadeiro");
+} else{
+    System.out.println("Falso");
+}
+
+
+Verificar valor de String
+> if(str.equals("Arruda")){ 
+    System.out.println("Verdadeiro");
+} else{
+    System.out.println("Falso");
+}
+
+Verificar se a String é vazia
+> if(str.isBlank()){ 
+    System.out.println("Verdadeiro");
+} else{
+    System.out.println("Falso");
+}
